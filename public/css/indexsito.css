@@ -1,0 +1,167 @@
+/* Estilo general del body */
+body {
+    background: linear-gradient(to right, #f8c8d7, #f3d1e0); /* Fondo suave en tonos rosas */
+    font-family: 'Arial', sans-serif;
+    color: #333; /* Color de texto oscuro para un buen contraste */
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para encabezados */
+h1, h2, h3 {
+    color: #e72b7f; /* Color rosa fuerte para los encabezados */
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Estilo general para botones */
+.btn {
+    background-color: #e72b7f; /* Fondo rosa suave */
+    color: white; /* Texto blanco */
+    padding: 12px 24px; /* Espaciado interno */
+    border: none; /* Sin borde */
+    border-radius: 8px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar el mouse */
+    font-size: 16px; /* Tamaño de fuente */
+    transition: background-color 0.3s ease; /* Transición suave para el color */
+    width: 100%; /* Los botones ocupan el 100% del ancho del contenedor */
+    box-sizing: border-box; /* Incluye padding en el ancho total */
+}
+
+/* Efecto al pasar el ratón en los botones */
+.btn:hover {
+    background-color: #d31f6b; /* Cambia a un rosa más oscuro */
+}
+
+/* Botón de "Agregar" */
+.btn-add {
+    background-color: #e72b7f; /* Fondo rosa */
+}
+
+.btn-add:hover {
+    background-color: #d31f6b; /* Fondo rosa oscuro */
+}
+
+/* Botón de "Editar" */
+.btn-edit {
+    background-color: #ff80b3; /* Fondo rosa claro */
+}
+
+.btn-edit:hover {
+    background-color: #ff66a1; /* Fondo rosa más intenso */
+}
+
+/* Botón de "Cerrar Sesión" */
+.btn-logout {
+    background-color: #ff4d6d; /* Fondo rojo suave */
+}
+
+.btn-logout:hover {
+    background-color: #ff3366; /* Fondo rojo más intenso */
+}
+
+/* Botón de "Eliminar" */
+.btn-delete {
+    background-color: #ff6666; /* Fondo rojo suave */
+}
+
+.btn-delete:hover {
+    background-color: #ff4d4d; /* Fondo rojo más intenso */
+}
+
+/* Tabla */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px; /* Espacio entre la tabla y otros elementos */
+}
+
+.table thead {
+    background-color: #f1c7d6; /* Fondo suave para los encabezados */
+}
+
+.table th, .table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd; /* Línea sutil debajo de las celdas */
+}
+
+/* Encabezados de la tabla */
+.table th {
+    background-color: #f8c8d7; /* Fondo más claro para los encabezados */
+    color: #e72b7f; /* Rosa fuerte para el texto */
+    font-weight: bold;
+}
+
+/* Resaltar filas al pasar el mouse */
+.table tbody tr:hover {
+    background-color: #fce0e8; /* Fondo muy suave al pasar el mouse */
+}
+
+/* Tarjetas */
+.card {
+    background-color: #ffffff; /* Fondo blanco para las tarjetas */
+    border: 1px solid #f1c7d6; /* Borde rosa suave */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    padding: 20px;
+    border-radius: 8px; /* Bordes redondeados */
+    margin-bottom: 20px; /* Espacio entre tarjetas */
+}
+
+.card:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Sombra más intensa al pasar el mouse */
+}
+
+/* Estilo del modal */
+.modal {
+    background-color: #ffffff; /* Fondo blanco para el modal */
+    padding: 30px;
+    border-radius: 12px; /* Bordes redondeados */
+    width: 400px;
+    margin: 50px auto; /* Centrado vertical y horizontal */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra suave */
+}
+
+.modal h2 {
+    color: #e72b7f; /* Título en rosa fuerte */
+    text-align: center;
+}
+
+/* Botones en el modal */
+.modal .btn {
+    width: 100%; /* Los botones ocupan todo el ancho */
+    margin-top: 10px;
+}
+
+/* Botones en el modal - Agregar, Editar, Eliminar y Cerrar */
+.modal .btn-add {
+    background-color: #e72b7f; /* Rosa suave */
+}
+
+.modal .btn-add:hover {
+    background-color: #d31f6b; /* Rosa oscuro */
+}
+
+.modal .btn-edit {
+    background-color: #ff80b3; /* Rosa claro */
+}
+
+.modal .btn-edit:hover {
+    background-color: #ff66a1; /* Rosa más intenso */
+}
+
+.modal .btn-delete {
+    background-color: #ff6666; /* Rojo suave */
+}
+
+.modal .btn-delete:hover {
+    background-color: #ff4d4d; /* Rojo más intenso */
+}
+
+.modal .btn-logout {
+    background-color: #ff4d6d; /* Rojo suave */
+}
+
+.modal .btn-logout:hover {
+    background-color: #ff3366; /* Rojo más intenso */
+}

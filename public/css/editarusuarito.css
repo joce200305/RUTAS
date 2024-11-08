@@ -1,0 +1,127 @@
+/* Estilo general del body */
+body {
+    background-color: #f8f1f9; /* Fondo suave en tonos rosas pálidos */
+    font-family: 'Arial', sans-serif;
+    color: #4a4a4a; /* Color de texto oscuro para un buen contraste */
+    margin: 0;
+    padding: 0;
+}
+
+/* Contenedor principal */
+.container {
+    background-color: #ffffff; /* Fondo blanco para resaltar el contenido */
+    border-radius: 12px; /* Bordes redondeados */
+    padding: 30px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Sombra suave para darle profundidad */
+    max-width: 600px;
+    margin: 50px auto;
+}
+
+/* Encabezado */
+h2 {
+    text-align: center;
+    color: #d28cb3; /* Color rosado suave */
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+/* Estilo del formulario */
+.form-group {
+    margin-bottom: 20px;
+}
+
+/* Estilo de las etiquetas de los campos */
+label {
+    font-weight: bold;
+    color: #d28cb3; /* Color rosado suave */
+    font-size: 1.1rem;
+}
+
+/* Estilo de los campos de texto */
+.form-control {
+    background-color: #f7f3f6; /* Fondo suave y femenino */
+    border: 2px solid #e1c3d3; /* Borde sutil en tono rosa */
+    color: #4a4a4a;
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+/* Efecto de enfoque de los campos de texto */
+.form-control:focus {
+    border-color: #d28cb3; /* Borde rosa al enfocar */
+    background-color: #fff; /* Fondo blanco al enfocar */
+    box-shadow: 0 0 5px rgba(210, 140, 179, 0.6); /* Sombra suave */
+}
+
+/* Estilo de los botones */
+.btn-primary {
+    background-color: #d28cb3; /* Fondo rosa suave */
+    color: white; /* Texto blanco */
+    border: none;
+    border-radius: 8px;
+    padding: 12px 30px;
+    font-size: 1rem;
+    width: 100%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Cambio de color al pasar el ratón */
+.btn-primary:hover {
+    background-color: #a87f99; /* Rosa más oscuro */
+}
+
+/* Botón secundario (Volver) */
+.btn-secondary {
+    background-color: #f2f2f2; /* Fondo gris claro */
+    color: #d28cb3; /* Texto rosado suave */
+    border: 2px solid #d28cb3;
+    padding: 10px 25px;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Cambio de color al pasar el ratón */
+.btn-secondary:hover {
+    background-color: #f8e1f3; /* Fondo rosa pálido */
+}
+
+/* Estilo para mensajes de éxito o error */
+.alert {
+    border-radius: 8px;
+    padding: 15px;
+    font-size: 1rem;
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* Alerta de éxito */
+.alert-success {
+    background-color: #d2f7d8; /* Verde suave */
+    color: #4a7c4a;
+}
+
+/* Alerta de error */
+.alert-danger {
+    background-color: #f8d7da; /* Rojo suave */
+    color: #721c24;
+}
+
+/* Estilo para la sombra de la página */
+.page-shadow {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+}
+
+/* Estilo de los enlaces */
+a {
+    color: #d28cb3; /* Color rosado suave */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline; /* Subrayado al pasar el ratón */
+}
